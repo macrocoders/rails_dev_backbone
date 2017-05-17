@@ -1,0 +1,50 @@
+scss_files: "app/assets/stylesheets/**/*.scss"
+
+linters:
+  NameFormat:
+    enabled: true
+    allow_leading_underscore: true
+    convention: "[^A-Z]"
+
+  StringQuotes:
+    style: double_quotes
+
+  PropertySortOrder:
+    order:
+      - display
+      - position
+      - top
+      - right
+      - bottom
+      - left
+      - flex
+      - flex-basis
+      - flex-direction
+      - flex-flow
+      - flex-grow
+      - flex-shrink
+      - flex-wrap
+      - align-content
+      - align-items
+      - align-self
+      - justify-content
+      - order
+      - width
+      - min-width
+      - max-width
+      - height
+      - min-height
+      - max-height
+      - margin
+      - margin-top
+      - margin-right
+      - margin-bottom
+      - margin-left
+      - padding
+      - padding-top
+      - padding-right
+      - padding-bottom
+      - padding-left
+      - float
+      - clear
+      - columns
